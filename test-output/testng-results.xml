@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-06T09:43:29 BST" name="Loans" finished-at="2024-04-06T09:43:29 BST" duration-ms="141">
+    <groups>
+    </groups>
+    <test started-at="2024-04-06T09:43:29 BST" name="Car Loans Test" finished-at="2024-04-06T09:43:29 BST" duration-ms="46">
+      <class name="loan.carloan.oldcar.Registration">
+        <test-method signature="mobileRegistration()[pri:0, instance:loan.carloan.oldcar.Registration@163e4e87]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileRegistration -->
+        <test-method signature="webRegistration()[pri:0, instance:loan.carloan.oldcar.Registration@163e4e87]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webRegistration -->
+      </class> <!-- loan.carloan.oldcar.Registration -->
+      <class name="loan.carloan.newcar.Registration">
+        <test-method signature="apiRegistration()[pri:0, instance:loan.carloan.newcar.Registration@78aab498]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiRegistration -->
+      </class> <!-- loan.carloan.newcar.Registration -->
+    </test> <!-- Car Loans Test -->
+    <test started-at="2024-04-06T09:43:29 BST" name="House Loans Test" finished-at="2024-04-06T09:43:29 BST" duration-ms="20">
+      <class name="loan.houseloan.newhouse.Registration">
+        <test-method signature="apiRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiRegistration -->
+        <test-method signature="mobileRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileRegistration -->
+        <test-method signature="webRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webRegistration -->
+      </class> <!-- loan.houseloan.newhouse.Registration -->
+      <class name="loan.houseloan.oldhouse.Registration">
+        <test-method signature="apiRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiRegistration -->
+        <test-method signature="mobileRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileRegistration -->
+        <test-method signature="webRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webRegistration -->
+      </class> <!-- loan.houseloan.oldhouse.Registration -->
+    </test> <!-- House Loans Test -->
+  </suite> <!-- Loans -->
+</testng-results>
