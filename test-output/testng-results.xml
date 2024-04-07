@@ -1,57 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-06T09:43:29 BST" name="Loans" finished-at="2024-04-06T09:43:29 BST" duration-ms="141">
+  <suite started-at="2024-04-07T09:52:05 BST" name="Loans" finished-at="2024-04-07T09:52:05 BST" duration-ms="106">
     <groups>
     </groups>
-    <test started-at="2024-04-06T09:43:29 BST" name="Car Loans Test" finished-at="2024-04-06T09:43:29 BST" duration-ms="46">
-      <class name="loan.carloan.oldcar.Registration">
-        <test-method signature="mobileRegistration()[pri:0, instance:loan.carloan.oldcar.Registration@163e4e87]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="9" status="PASS">
+    <test started-at="2024-04-07T09:52:05 BST" name="demo" finished-at="2024-04-07T09:52:05 BST" duration-ms="38">
+      <class name="day26.Demo5">
+        <test-method signature="m1(java.lang.String,java.lang.String)[pri:0, instance:day26.Demo5@163e4e87]" started-at="2024-04-07T09:52:05 BST" name="m1" finished-at="2024-04-07T09:52:05 BST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flexiquiz.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveenkumar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileRegistration -->
-        <test-method signature="webRegistration()[pri:0, instance:loan.carloan.oldcar.Registration@163e4e87]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+        </test-method> <!-- m1 -->
+      </class> <!-- day26.Demo5 -->
+    </test> <!-- demo -->
+    <test started-at="2024-04-07T09:52:05 BST" name="sample" finished-at="2024-04-07T09:52:05 BST" duration-ms="14">
+      <class name="day26.Demo1">
+        <test-method signature="amethod1(java.lang.String)[pri:0, instance:day26.Demo1@3c130745]" started-at="2024-04-07T09:52:05 BST" name="amethod1" finished-at="2024-04-07T09:52:05 BST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flexiquiz.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webRegistration -->
-      </class> <!-- loan.carloan.oldcar.Registration -->
-      <class name="loan.carloan.newcar.Registration">
-        <test-method signature="apiRegistration()[pri:0, instance:loan.carloan.newcar.Registration@78aab498]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
+        </test-method> <!-- amethod1 -->
+        <test-method signature="bmethod3()[pri:0, instance:day26.Demo1@3c130745]" started-at="2024-04-07T09:52:05 BST" name="bmethod3" finished-at="2024-04-07T09:52:05 BST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apiRegistration -->
-      </class> <!-- loan.carloan.newcar.Registration -->
-    </test> <!-- Car Loans Test -->
-    <test started-at="2024-04-06T09:43:29 BST" name="House Loans Test" finished-at="2024-04-06T09:43:29 BST" duration-ms="20">
-      <class name="loan.houseloan.newhouse.Registration">
-        <test-method signature="apiRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+        </test-method> <!-- bmethod3 -->
+        <test-method signature="cmethod2()[pri:0, instance:day26.Demo1@3c130745]" started-at="2024-04-07T09:52:05 BST" name="cmethod2" finished-at="2024-04-07T09:52:05 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apiRegistration -->
-        <test-method signature="mobileRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
+        </test-method> <!-- cmethod2 -->
+        <test-method signature="dmethod4(java.lang.String,java.lang.String)[pri:0, instance:day26.Demo1@3c130745]" started-at="2024-04-07T09:52:05 BST" name="dmethod4" finished-at="2024-04-07T09:52:05 BST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method dmethod4 but has not been marked @Optional or defined
+in /Users/Naveen/Desktop/Examples/TestNgExamples/testng4.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method dmethod4 but has not been marked @Optional or defined
+in /Users/Naveen/Desktop/Examples/TestNgExamples/testng4.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileRegistration -->
-        <test-method signature="webRegistration()[pri:0, instance:loan.houseloan.newhouse.Registration@703580bf]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webRegistration -->
-      </class> <!-- loan.houseloan.newhouse.Registration -->
-      <class name="loan.houseloan.oldhouse.Registration">
-        <test-method signature="apiRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="apiRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiRegistration -->
-        <test-method signature="mobileRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="mobileRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileRegistration -->
-        <test-method signature="webRegistration()[pri:0, instance:loan.houseloan.oldhouse.Registration@3e92efc3]" started-at="2024-04-06T09:43:29 BST" name="webRegistration" finished-at="2024-04-06T09:43:29 BST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webRegistration -->
-      </class> <!-- loan.houseloan.oldhouse.Registration -->
-    </test> <!-- House Loans Test -->
+        </test-method> <!-- dmethod4 -->
+      </class> <!-- day26.Demo1 -->
+    </test> <!-- sample -->
   </suite> <!-- Loans -->
 </testng-results>
